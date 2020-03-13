@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LaunchPhantomJStest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="youtubesearch" value="maven tutorial"/>
+    <parameter name="youtubeurl" value="http://youtube.com"/>
+    <parameter name="youtubetitle" value="YouTube"/>
+    <classes>
+      <class name="TestWebDriver.LaunchyoutubePhantomJS">
+        <methods>
+          <include name="youtubeLaunch" invocation-numbers="0"/>
+          <include name="beforeMethodtest"/>
+        </methods>
+      </class> <!-- TestWebDriver.LaunchyoutubePhantomJS -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LaunchPhantomJStest] -->

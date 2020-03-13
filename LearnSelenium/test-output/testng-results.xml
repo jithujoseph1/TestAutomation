@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-08T23:15:55 EDT" name="LaunchPhantomJStest" finished-at="2020-03-08T23:16:04 EDT" duration-ms="9016">
+    <groups>
+    </groups>
+    <test started-at="2020-03-08T23:15:55 EDT" name="Test" finished-at="2020-03-08T23:16:04 EDT" duration-ms="9016">
+      <class name="TestWebDriver.LaunchyoutubePhantomJS">
+        <test-method is-config="true" signature="beforeMethodtest()[pri:0, instance:TestWebDriver.LaunchyoutubePhantomJS@c86b9e3]" started-at="2020-03-08T23:15:55 EDT" name="beforeMethodtest" finished-at="2020-03-08T23:15:55 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtest -->
+        <test-method signature="youtubeLaunch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestWebDriver.LaunchyoutubePhantomJS@c86b9e3]" started-at="2020-03-08T23:15:55 EDT" name="youtubeLaunch" finished-at="2020-03-08T23:16:04 EDT" duration-ms="8967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://youtube.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YouTube]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[maven tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- youtubeLaunch -->
+      </class> <!-- TestWebDriver.LaunchyoutubePhantomJS -->
+    </test> <!-- Test -->
+  </suite> <!-- LaunchPhantomJStest -->
+</testng-results>

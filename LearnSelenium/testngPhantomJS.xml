@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LaunchPhantomJStest">
+  <test thread-count="5" name="Test">
+  <parameter name="youtubeurl" value="http://youtube.com"></parameter>
+  <parameter name="youtubetitle" value="YouTube"></parameter>
+  <parameter name="youtubesearch" value="maven tutorial"></parameter>
+    <classes>
+      <class name="TestWebDriver.LaunchyoutubePhantomJS">
+      <methods>
+      <include name="youtube.*"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- LaunchSuite -->

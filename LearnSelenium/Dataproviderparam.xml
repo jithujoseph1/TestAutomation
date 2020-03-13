@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LaunchSuite" configfailurepolicy="continue">
+<listeners>
+<listener class-name="TestWebDriver.ListenerMain"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+  
+  <parameter name="youtubeurl" value="http://youtube.com"></parameter>
+  <parameter name="googleurl" value="http://google.com"></parameter>
+  <parameter name="googletitle" value="Google"></parameter>
+  <parameter name="youtubetitle" value="youTube"></parameter>
+  <parameter name="youtubesearch" value="maven tutorial"></parameter>
+    <classes>
+      <class name="TestWebDriver.Launchyoutube">
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- LaunchSuite -->
